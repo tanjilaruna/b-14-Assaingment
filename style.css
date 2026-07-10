@@ -1,14 +1,8 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
 
 nav{
     display:flex;
-    justify-content:space-between;
     align-items:center;
-    padding:20px 60px;
+    justify-content: space-around;
 }
 
 nav ul{
@@ -30,4 +24,155 @@ nav button {
     color: aliceblue;
     border: none;
     outline: none;
+}
+.hero-parent{
+background-image: url(./assets/banner.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+justify-content:center;
+text-align: center;
+align-items: center;
+height: 80vh;
+padding: 30px;
+}
+.hero-parent h1{
+    text-align: center;
+    color: aliceblue;
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-top: 80px;
+    font-size: 90px;
+    
+}
+.hero-parent p{
+    color: aliceblue;
+    font-size: 20px;
+   
+}
+ 
+.hero-parent button{
+    
+    background-color: rgb(66, 46, 245);
+    color: aliceblue;
+    border-radius: 10px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px; 
+    outline: none;
+    border: none;  
+    margin-top: 350px; 
+}
+.meet-parent{
+    
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;     
+    padding: 0 20px;
+}
+.meet-parent h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    gap: 30px;
+
+}
+
+.meet-parent-card{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: space-between;
+    
+}
+.meet-parent-card .card{
+    border:1px solid rgb(190, 189, 189);
+    border-radius: 10px;
+    padding: 2px;
+    overflow: hidden
+    
+}
+
+.meet-parent-card .card img {
+    width: 100%;
+    display: block;
+    color: aliceblue;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.secure-spot-parent{
+    text-align: center;
+
+}
+.secure-spot-card{
+    display: flex;
+    justify-content: center; 
+     
+}
+.secure-spot-card-box{
+    border:1px solid rgb(190, 189, 189);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: left;
+    margin-right: 30px;
+   
+}
+.secure-spot-card-box ul{
+    text-align: left;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+.secure-spot-parent .secure-spot-card-box2{
+background-color: rgb(4, 25, 48);
+border-radius: 10px;
+margin-top:0;
+padding: 30px;
+}
+.secure-spot-card-box2{
+
+color: aliceblue;
+font-family: monospace;
+
+}
+.footer{
+    background-color:#02102c;
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
+
+.footer h2{
+    margin-bottom:10px;
+    font-size:30px;
+}
+
+.footer p{
+    color:#cbd5e1;
+    margin-bottom:20px;
+}
+
+.social-icon{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+.social-icon a{
+    width:45px;
+    height:45px;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:20px;
+    transition:0.3s;
+}
+.social-icon a:hover{
+    background:white;
+    color:#2563eb;
 }
