@@ -4,18 +4,15 @@ nav{
     align-items:center;
     justify-content: space-around;
 }
-
 nav ul{
     display:flex;
     list-style:none;
     gap:30px;
 }
-
 nav ul li a{
     text-decoration:none;
     color:rgb(99, 98, 98);
 }
-
 nav button {
 
     padding:10px 20px;
@@ -34,7 +31,6 @@ justify-content:center;
 text-align: center;
 align-items: center;
 height: 80vh;
-padding: 30px;
 }
 .hero-parent h1{
     text-align: center;
@@ -43,19 +39,17 @@ padding: 30px;
     display: flex;
     justify-content:center;
     align-items: center;
-    padding-top: 80px;
     font-size: 90px;
-    
+    margin-top: 0px;
+    padding-top: 70px;
 }
 .hero-parent p{
     color: aliceblue;
     font-size: 20px;
-    text-align: inherit;
-   
+    text-align:center; 
+    margin: 0;
 }
- 
 .hero-parent button{
-    
     background-color: rgb(66, 46, 245);
     color: aliceblue;
     border-radius: 10px; 
@@ -63,11 +57,10 @@ padding: 30px;
     font-size: 30px; 
     outline: none;
     border: none;  
-    margin-top: 350px; 
-    padding: 10px;
+    margin-top: 300px; 
+    padding: 5, 15px;
 }
 .meet-parent{
-    
     justify-content: space-between;
     max-width: 1200px;
     margin: 0 auto;     
@@ -75,11 +68,23 @@ padding: 30px;
 }
 .meet-parent h1{
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    gap: 30px;
-
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
 }
-
+.meet-parent-card .card h4{
+text-align: center;
+color: #3162f3;
+margin: 0;
+}
+.meet-parent-card .card h3{
+text-align: center;
+color: #161718;
+margin: 0;
+}
+.meet-parent-card .card p{
+text-align: center;
+color: #919394;
+margin:0; 
+}
 .meet-parent-card{
     display:grid;
     grid-template-columns: repeat(2, 1fr);
@@ -91,10 +96,8 @@ padding: 30px;
     border:1px solid rgb(190, 189, 189);
     border-radius: 10px;
     padding: 2px;
-    overflow: hidden
-    
+    overflow: hidden;  
 }
-
 .meet-parent-card .card img {
     width: 100%;
     display: block;
@@ -102,57 +105,101 @@ padding: 30px;
     border: none;
     outline: none;
     border-radius: 5px;
+    margin-bottom: 10px;
 }
 .secure-spot-parent{
-    text-align: center;
+    justify-content: center;
     
 }
+.spot-content h1{
+    text-align: center;
+  
+}
+.spot-content p{
+    text-align: center;
+   margin: 0px ;
+}
+
 .secure-spot-card{
     display: flex;
-    justify-content: center;
     text-align: left;
-    margin-right: 30px;
-    padding: 30px;
+    gap: 20px;
+    padding:40px;
+    justify-content: center; 
 }
 .secure-spot-card .card{
-    border:1px solid rgb(190, 189, 189); 
+    border:1px solid rgb(179, 179, 179); 
     border-radius: 10px;
     overflow: hidden;
-     margin-right: 30px;
-    padding: 30px;
-
+    padding: 10px;       
 }
-.card-font{
-    text-align: left;
-    padding: 2px;
-    word-spacing: 0;
+.card button{
+border-radius: 7px;
+text-align: center;
+background-color: #f3f5fa;
+padding:10px;
+overflow: hidden;
+border:1px solid rgb(11, 168, 241); 
+outline: none; 
+position: center;
+color: rgb(6, 109, 194);
+justify-content: center;
+gap: 20px;
+size: 30px;
 }
-    .card2{
-    overflow: hidden;
-     margin-right: 30px; 
-     
-    }
+ .card-font p{
+    word-spacing:0%;
+    color: #919497;
+    margin: 0; 
+}
+.card .blue{
+overflow: hidden;
+}
    
-   .secure-spot-card .blue{
+.card2 .blue{
     background-color: rgb(18, 61, 99);
-    width: 300px;
-    padding: 30px;
+    padding: 20px;
     border-radius: 10px;
     color: #cbd5e1;
+    width: 250px;
    }
-   .card2 h2 h4 p {
-    gap: 0;
-
-   }
-
-.secure-spot-card-box ul{
+.card2 .blue button{
+border-radius: 7px;
+text-align: center;
+background-color: #3162f3;
+padding:10px;
+overflow: hidden;
+border: none;
+outline: none; 
+color: rgb(253, 254, 255);
+padding: 10 100px;
+align-items: center;
+}
+.secure-spot-card ul{
     text-align: left;
     margin-right: 30px;
     margin-bottom: 15px;
     padding-left: 20px;
 }
+.card .card-font p{
+margin:0;
+color: #919497;
+}
+.card .card-font h2{
+margin:0;
+color: #0b0c0c;
+}
+.blue .card-font p{
+margin:0;
+color: #52a4f7;
+}
+.blue .card-font h2{
+margin:0;
+color: #f1f5f5;
+}
+
 .fotter{
-background-color: #2a3855;
+background-color: #1e293f;
 }
 .fotter-parent{
     
@@ -168,8 +215,7 @@ background-color: #2a3855;
 .social-icon{
     display:flex;
     margin-top: 60px;
-    margin-right: 10px;
-     
+    margin-right: 10px;    
 }
 .social-icon a{
     width:45px;
@@ -185,7 +231,6 @@ background-color: #2a3855;
     align-items: center;
     text-align: center;
 }
-
 .social-icon a:hover{
     background:white;
     color:#2563eb;
