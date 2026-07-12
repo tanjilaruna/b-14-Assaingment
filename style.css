@@ -85,7 +85,7 @@ margin: 0;
 .meet-parent-card .card p{
 text-align: center;
 color: #919394;
-margin:0; 
+padding: 1px; 
 }
 .meet-parent-card{
     display:grid;
